@@ -10,7 +10,7 @@ rag.load_env()
 
 st.set_page_config(page_title="RAG documental | Jorge Rollón", page_icon="📚", layout="wide")
 st.title("RAG documental")
-st.caption("Jorge Ángel Rollón Rafael · Python · LlamaIndex · Ollama o API")
+st.caption("Jorge Ángel Rollón Rafael · Python · LlamaIndex o LangChain · Ollama o API")
 st.info("Selecciona un tema, consulta tus documentos y comprueba las fuentes. La primera indexación descarga el modelo de búsqueda.")
 
 with st.sidebar:
@@ -21,6 +21,9 @@ with st.sidebar:
     create = st.button("Crear base con estos PDF", disabled=not files)
     demo = st.button("Cargar documentos de ejemplo")
     st.caption("Crear o cargar una base sustituye la base activa. Los ejemplos son ficticios.")
+    motors = {"LlamaIndex": "llamaindex", "LangChain": "langchain"}
+    motor = motors[st.radio("Motor de búsqueda", list(motors), horizontal=True)]
+    st.caption("Se aplica al crear la base. Los dos usan el mismo modelo de embeddings.")
     st.divider()
     providers = {"Ollama (local)": "ollama", "API compatible con OpenAI": "api"}
     provider = providers[st.radio("Quién redacta la respuesta", list(providers))]
@@ -38,7 +41,7 @@ if create or demo:
         with st.spinner("Preparando documentos e índice local..."):
             pages, warnings = (rag.demo_pages(), []) if demo else rag.pdf_pages(files, topics)
             bar = st.progress(0)
-            st.session_state.base = rag.build_base(pages, progress=bar.progress)
+            st.session_state.base = rag.build_base(pages, motor, progress=bar.progress)
             bar.empty()
             st.session_state.pop("result", None)
             st.session_state.pop("evaluation", None)
@@ -64,6 +67,7 @@ a, b, c = st.columns(3)
 a.metric("Temas", len(stores))
 b.metric("Páginas con texto", manifest["paginas"])
 c.metric("Fragmentos", manifest["fragmentos"])
+st.caption(f"Base activa creada con {rag.get_motor(manifest['motor']).LABEL}.")
 topic = st.selectbox("Buscar exclusivamente en este tema", sorted(stores))
 with st.form("question"):
     question = st.text_area("Pregunta", max_chars=1500, placeholder="¿Qué plazo tengo para devolver un producto?")

@@ -228,7 +228,7 @@ class Settings(unittest.TestCase):
             self.assertEqual(rag.api_settings()[1], "http://127.0.0.1:9/v1")
     def test_engine_does_not_import_heavy_libraries(self):
         import sys
-        self.assertFalse({"streamlit", "llama_index", "torch"} & set(sys.modules))
+        self.assertFalse({"streamlit", "llama_index", "langchain_core", "torch"} & set(sys.modules))
 
 
 if __name__ == "__main__":
