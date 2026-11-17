@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 datos/
+datos_boe/
 *.sqlite3
 requirements.lock.txt
 .env

@@ -48,10 +48,10 @@ def main():
         print(f"{question[:46]:46} {expected or '(ninguno)':13} " + " ".join(f"{cell:>22}" for cell in cells))
     for name in names:
         stores, manifest = bases[name]
-        rows = rag.evaluate(stores, manifest, rag.DEMO_CASES, 0.85)
+        rows = rag.evaluate(stores, manifest, rag.DEMO_CASES, rag.DEFAULT_THRESHOLD)
         hits = sum(row["cumple"] for row in rows if row["esperado"])
         rejected = sum(row["cumple"] for row in rows if not row["esperado"])
-        print(f"{name}: evaluación de ejemplo con umbral 0,85 -> aciertos {hits}/4, rechazos {rejected}/1")
+        print(f"{name}: evaluación de ejemplo con umbral {rag.DEFAULT_THRESHOLD} -> aciertos {hits}/4, rechazos {rejected}/1")
 
 
 if __name__ == "__main__":

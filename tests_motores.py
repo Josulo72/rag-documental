@@ -12,7 +12,7 @@ from unittest import mock
 
 import rag_engine as rag
 
-THRESHOLD = 0.85
+THRESHOLD = rag.DEFAULT_THRESHOLD
 
 
 class Motors(unittest.TestCase):

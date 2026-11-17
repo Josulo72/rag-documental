@@ -1,0 +1,212 @@
+[
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Qué colores tiene la bandera de España?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "roja, amarilla y roja"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuál es la capital del Estado?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "villa de Madrid"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuál es la lengua oficial del Estado?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "castellano es la lengua española oficial"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿A qué edad se alcanza la mayoría de edad?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "mayores de edad a los dieciocho años"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuánto puede durar como máximo una detención preventiva?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "setenta y dos horas"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Es obligatoria la enseñanza básica?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "enseñanza básica es obligatoria y gratuita"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuántos diputados componen el Congreso?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "mínimo de 300 y un máximo de 400"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuántos senadores se eligen en cada provincia?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "cuatro Senadores"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Quién puede proponer una moción de censura?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "décima parte de los Diputados"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuántos miembros tiene el Tribunal Constitucional?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "se compone de 12 miembros"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuántas firmas hacen falta para una iniciativa legislativa popular?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "500.000 firmas acreditadas"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Está permitida la pena de muerte?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "abolida la pena de muerte"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Tiene el Rey responsabilidad por sus actos?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "inviolable y no está sujeta a responsabilidad"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Quién declara el estado de alarma?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "estado de alarma será declarado por el Gobierno"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Hay una religión oficial del Estado?",
+    "archivo_esperado": "BOE-A-1978-31229-consolidado.pdf",
+    "contiene": "ninguna confesión tendrá carácter estatal"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿A partir de qué edad se puede trabajar?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "menores de dieciséis años"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuánto puede durar el periodo de prueba?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "seis meses para los técnicos titulados"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuál es la jornada máxima semanal?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "cuarenta horas semanales"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuántas horas de descanso debe haber entre una jornada y la siguiente?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "doce horas"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuánto dura el descanso semanal mínimo?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "día y medio ininterrumpido"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuántos días de permiso corresponden por matrimonio?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "quince días naturales en caso de matrimonio"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuántos días de vacaciones tengo al año como mínimo?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "inferior a treinta días naturales"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuántas horas extraordinarias se pueden hacer al año?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "ochenta al año"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Qué horario se considera trabajo nocturno?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "diez de la noche y las seis de la mañana"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Qué indemnización corresponde por un despido improcedente?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "treinta y tres días de salario por año de servicio"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuántas pagas extraordinarias hay al año?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "dos gratificaciones extraordinarias al año"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Qué interés se aplica si la empresa se retrasa en pagar el salario?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "diez por ciento de lo adeudado"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuánto descanso hay dentro de la jornada si dura más de seis horas?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "quince minutos"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿A partir de cuántos trabajadores hay comité de empresa?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "cincuenta o más trabajadores"
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuál es el tope de la indemnización por despido improcedente?",
+    "archivo_esperado": "BOE-A-2015-11430-consolidado.pdf",
+    "contiene": "veinticuatro mensualidades"
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuántos días de vacaciones tiene un trabajador al año?",
+    "archivo_esperado": null
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuál es el tipo general del IVA?",
+    "archivo_esperado": null
+  },
+  {
+    "tema": "Constitución",
+    "pregunta": "¿Cuál es la velocidad máxima en una autopista?",
+    "archivo_esperado": null
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Cuántos diputados componen el Congreso?",
+    "archivo_esperado": null
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Qué es la fotosíntesis?",
+    "archivo_esperado": null
+  },
+  {
+    "tema": "Estatuto de los Trabajadores",
+    "pregunta": "¿Qué pena tiene el robo con violencia?",
+    "archivo_esperado": null
+  }
+]

@@ -160,6 +160,15 @@ class Base(unittest.TestCase):
         rows = rag.evaluate(stores, manifest, cases, .5)
         self.assertEqual([row["cumple"] for row in rows], [True, True, False])
         self.assertTrue(all(row["aislamiento"] for row in rows))
+    def test_evaluation_can_require_a_phrase(self):
+        stores, manifest = self.build()
+        case = {"tema": "Compras", "pregunta": "los envíos nacionales tardan", "archivo_esperado": "EJEMPLO_envios.txt"}
+        ok = rag.evaluate(stores, manifest, [{**case, "contiene": "de 48 a  72\nHORAS"}], .5)
+        bad = rag.evaluate(stores, manifest, [{**case, "contiene": "catorce días"}], .5)
+        self.assertEqual((ok[0]["cumple"], bad[0]["cumple"]), (True, False))
+        for wrong in ({**case, "contiene": " "}, {**case, "contiene": 3},
+                      {"tema": "Compras", "pregunta": "x", "archivo_esperado": None, "contiene": "algo"}):
+            with self.assertRaises(ValueError): rag.evaluate(stores, manifest, [wrong], .5)
     def test_evaluation_rejects_bad_cases(self):
         stores, manifest = self.build()
         for cases in ([], {"tema": "Compras"}, [{"tema": "Compras"}],

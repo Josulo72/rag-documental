@@ -33,7 +33,7 @@ with st.sidebar:
     else:
         model = st.text_input("Modelo instalado en Ollama", "qwen2.5:1.5b")
         st.caption("La búsqueda y la respuesta se hacen en este equipo.")
-    threshold = st.slider("Similitud mínima", 0.0, 1.0, 0.85, 0.01)
+    threshold = st.slider("Similitud mínima", 0.0, 1.0, rag.DEFAULT_THRESHOLD, 0.01)
     st.caption("Umbral experimental. Debe calibrarse con tus documentos. No representa una probabilidad de acierto.")
 
 if create or demo:
@@ -108,7 +108,7 @@ if result:
                        file_name="consulta_rag.json", mime="application/json")
 
 with st.expander("Evaluar la recuperación", expanded=bool(st.session_state.get("evaluation"))):
-    st.write("Carga un JSON con casos: tema, pregunta y archivo_esperado. Usa null para preguntas que deberían rechazarse.")
+    st.write("Carga un JSON con casos: tema, pregunta y archivo_esperado. Usa null para preguntas que deberían rechazarse. Si añades contiene, el fragmento recuperado tiene que incluir esa frase.")
     cases_file = st.file_uploader("Casos de evaluación", type=["json"])
     if st.button("Evaluar"):
         try:

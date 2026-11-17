@@ -12,6 +12,8 @@ import io
 import json
 import math
 import os
+import re
+import unicodedata
 import uuid
 from collections import defaultdict
 from dataclasses import dataclass
@@ -28,6 +30,7 @@ API_URL = "https://api.openai.com/v1"
 API_MODEL = "gpt-4o-mini"
 NO_ANSWER = "No encuentro información suficiente en los documentos seleccionados."
 DEFAULT_MOTOR = "llamaindex"
+DEFAULT_THRESHOLD = 0.84  # sale de evaluar_boe.py; hay que ajustarlo con cada colección
 MOTORS = {"llamaindex": "motor_llamaindex", "langchain": "motor_langchain"}
 
 SYSTEM = """Responde en español utilizando exclusivamente los fragmentos recibidos.
@@ -207,8 +210,17 @@ def retrieve(stores, manifest, topic, question, limit=4):
     return get_motor(manifest["motor"]).search(stores[topic], question, limit)
 
 
+def normalise(text):
+    """Minúsculas y espacios simples, para comparar frases aunque el PDF las parta en dos líneas."""
+    return re.sub(r"\s+", " ", unicodedata.normalize("NFKC", text).lower()).strip()
+
+
 def evaluate(stores, manifest, cases, threshold):
-    """Comprueba, caso a caso, si aparece el archivo esperado entre los tres primeros aceptados."""
+    """Comprueba, caso a caso, si lo esperado aparece entre los tres primeros fragmentos aceptados.
+
+    Cada caso dice en qué archivo debería estar la respuesta. Si además trae "contiene",
+    no basta con acertar el archivo: algún fragmento aceptado tiene que incluir esa frase.
+    """
     if not isinstance(cases, list) or not 1 <= len(cases) <= 100:
         raise ValueError("Se esperan entre 1 y 100 casos.")
     rows = []
@@ -220,11 +232,22 @@ def evaluate(stores, manifest, cases, threshold):
             raise ValueError("Cada caso necesita un tema existente y una pregunta.")
         if expected is not None and not isinstance(expected, str):
             raise ValueError("archivo_esperado debe ser un nombre o null.")
+        phrase = case.get("contiene")
+        if phrase is not None and (not isinstance(phrase, str) or not phrase.strip() or expected is None):
+            raise ValueError("contiene debe ser una frase y solo vale en casos con archivo_esperado.")
         retrieved = retrieve(stores, manifest, target, query, 3)
-        found = [hit.metadata["archivo"] for hit in accepted_hits(retrieved, target, threshold, 3)]
+        accepted = accepted_hits(retrieved, target, threshold, 3)
+        found = [hit.metadata["archivo"] for hit in accepted]
+        if expected is None:
+            passed = not found
+        elif phrase:
+            passed = any(hit.metadata["archivo"] == expected and normalise(phrase) in normalise(hit.text)
+                         for hit in accepted)
+        else:
+            passed = expected in found
         rows.append({"tema": target, "pregunta": query, "esperado": expected,
-                     "recuperados": ", ".join(found),
-                     "cumple": not found if expected is None else expected in found,
+                     "recuperados": ", ".join(dict.fromkeys(found)),
+                     "cumple": passed,
                      "aislamiento": all(hit.metadata["tema"] == target for hit in retrieved)})
     return rows
 
