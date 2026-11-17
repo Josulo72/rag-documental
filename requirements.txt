@@ -1,0 +1,5 @@
+streamlit>=1.40,<2
+llama-index-core>=0.12,<1
+llama-index-embeddings-huggingface>=0.5,<1
+pypdf>=5,<10
+requests>=2.32,<3

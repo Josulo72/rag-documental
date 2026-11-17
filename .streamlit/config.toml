@@ -1,0 +1,21 @@
+[theme]
+base = "light"
+primaryColor = "#0E6B5C"
+backgroundColor = "#FBFAF7"
+secondaryBackgroundColor = "#F1EEE7"
+textColor = "#1D1C1A"
+linkColor = "#0E6B5C"
+borderColor = "#DDD8CE"
+dataframeHeaderBackgroundColor = "#F1EEE7"
+font = "'Segoe UI', system-ui, -apple-system, sans-serif"
+headingFont = "Georgia, 'Times New Roman', serif"
+headingFontWeights = 600
+baseRadius = "small"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

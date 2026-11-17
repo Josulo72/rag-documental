@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+datos/
+*.sqlite3
+requirements.lock.txt
+.env
+.streamlit/secrets.toml
+consulta_*.json
+evaluacion_*.json
