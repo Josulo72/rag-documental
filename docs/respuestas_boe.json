@@ -1,0 +1,1212 @@
+{
+  "modelo": "deepseek-chat",
+  "umbral": 0.84,
+  "motores": {
+    "llamaindex": [
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Qué colores tiene la bandera de España?",
+        "tiene_respuesta": true,
+        "respuesta": "La bandera de España está formada por tres franjas horizontales: roja, amarilla y roja, siendo la amarilla de doble anchura que cada una de las rojas.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 1,
+        "paginas": [
+          4
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.7
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuál es la capital del Estado?",
+        "tiene_respuesta": true,
+        "respuesta": "La capital del Estado es la villa de Madrid.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 1,
+        "paginas": [
+          4
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.3
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuál es la lengua oficial del Estado?",
+        "tiene_respuesta": true,
+        "respuesta": "El castellano es la lengua española oficial del Estado.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          3,
+          3
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿A qué edad se alcanza la mayoría de edad?",
+        "tiene_respuesta": true,
+        "respuesta": "Los españoles son mayores de edad a los dieciocho años.",
+        "citas": [
+          2
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          13,
+          5
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.7
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuánto puede durar como máximo una detención preventiva?",
+        "tiene_respuesta": true,
+        "respuesta": "La detención preventiva no podrá durar más del tiempo estrictamente necesario para la realización de las averiguaciones tendentes al esclarecimiento de los hechos y, en todo caso, tiene un plazo máximo de setenta y dos horas, transcurrido el cual el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          6,
+          6
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.9
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Es obligatoria la enseñanza básica?",
+        "tiene_respuesta": true,
+        "respuesta": "Sí, la enseñanza básica es obligatoria y gratuita.",
+        "citas": [
+          1,
+          2
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          8,
+          8
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.7
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántos diputados componen el Congreso?",
+        "tiene_respuesta": true,
+        "respuesta": "El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados, elegidos por sufragio universal, libre, igual, directo y secreto.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          15,
+          17,
+          35,
+          16
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántos senadores se eligen en cada provincia?",
+        "tiene_respuesta": true,
+        "respuesta": "En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley orgánica.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          15,
+          15
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.7
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Quién puede proponer una moción de censura?",
+        "tiene_respuesta": true,
+        "respuesta": "La moción de censura deberá ser propuesta al menos por la décima parte de los Diputados, y habrá de incluir un candidato a la Presidencia del Gobierno.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          23,
+          23,
+          23,
+          23
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántos miembros tiene el Tribunal Constitucional?",
+        "tiene_respuesta": true,
+        "respuesta": "El Tribunal Constitucional se compone de 12 miembros nombrados por el Rey.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          35,
+          35,
+          35,
+          35
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántas firmas hacen falta para una iniciativa legislativa popular?",
+        "tiene_respuesta": true,
+        "respuesta": "Se exigen no menos de 500.000 firmas acreditadas.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 1,
+        "paginas": [
+          19
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Está permitida la pena de muerte?",
+        "tiene_respuesta": true,
+        "respuesta": "Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 1,
+        "paginas": [
+          5
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Tiene el Rey responsabilidad por sus actos?",
+        "tiene_respuesta": true,
+        "respuesta": "No. Según el fragmento 2, la persona del Rey es inviolable y no está sujeta a responsabilidad; sus actos estarán siempre refrendados y carecen de validez sin dicho refrendo, salvo lo dispuesto en el artículo 65, 2. Además, el fragmento 1 y el fragmento 4 indican que de los actos del Rey serán responsables las personas que los refrenden.",
+        "citas": [
+          2,
+          1,
+          4
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          14,
+          13,
+          12,
+          14
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.6
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Quién declara el estado de alarma?",
+        "tiene_respuesta": true,
+        "respuesta": "El estado de alarma será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros, por un plazo máximo de quince días, dando cuenta al Congreso de los Diputados, reunido inmediatamente al efecto y sin cuya autorización no podrá ser prorrogado dicho plazo.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          23,
+          23
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.6
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Hay una religión oficial del Estado?",
+        "tiene_respuesta": true,
+        "respuesta": "No. Según el fragmento, ninguna confesión tendrá carácter estatal; los poderes públicos tendrán en cuenta las creencias religiosas de la sociedad española y mantendrán relaciones de cooperación con la Iglesia Católica y las demás confesiones.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 1,
+        "paginas": [
+          5
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.6
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿A partir de qué edad se puede trabajar?",
+        "tiene_respuesta": true,
+        "respuesta": "Se prohíbe la admisión al trabajo a los menores de dieciséis años. No obstante, podrán contratar la prestación de su trabajo los menores de dieciocho y mayores de dieciséis años que vivan de forma independiente, con consentimiento de sus padres o tutores, o con autorización de la persona o institución que les tenga a su cargo.",
+        "citas": [
+          1,
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          12,
+          12,
+          73,
+          33
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.8
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuánto puede durar el periodo de prueba?",
+        "tiene_respuesta": true,
+        "respuesta": "El periodo de prueba se rige por los límites de duración que, en su caso, se establezcan en los convenios colectivos. En defecto de pacto en convenio, la duración no podrá exceder de seis meses para los técnicos titulados, ni de dos meses para los demás trabajadores. En las empresas de menos de veinticinco trabajadores el periodo de prueba no podrá exceder de tres meses para los trabajadores que no sean técnicos titulados. En el supuesto de contratos temporales de duración determinada del artículo 15 concertados por tiempo no superior a seis meses, el periodo de prueba no podrá exceder de un mes, salvo que se disponga otra cosa en convenio colectivo.",
+        "citas": [
+          1,
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          20,
+          20,
+          20,
+          14
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.9
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuál es la jornada máxima semanal?",
+        "tiene_respuesta": true,
+        "respuesta": "La duración máxima de la jornada ordinaria de trabajo será de cuarenta horas semanales de trabajo efectivo de promedio en cómputo anual.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          33,
+          17,
+          36,
+          33
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.4
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántas horas de descanso debe haber entre una jornada y la siguiente?",
+        "tiene_respuesta": true,
+        "respuesta": "Entre el final de una jornada y el comienzo de la siguiente deben mediar, como mínimo, doce horas.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          33,
+          33,
+          33,
+          36
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuánto dura el descanso semanal mínimo?",
+        "tiene_respuesta": true,
+        "respuesta": "El descanso mínimo semanal es de día y medio ininterrumpido, acumulable por periodos de hasta catorce días, que como regla general comprenderá la tarde del sábado o, en su caso, la mañana del lunes y el día completo del domingo. Para los menores de dieciocho años, la duración del descanso semanal será, como mínimo, de dos días ininterrumpidos.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          36,
+          33,
+          33,
+          33
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 2.0
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántos días de permiso corresponden por matrimonio?",
+        "tiene_respuesta": true,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 4,
+        "paginas": [
+          57,
+          94,
+          94,
+          57
+        ],
+        "auto": "sin respuesta",
+        "segundos": 1.5
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántos días de vacaciones tengo al año como mínimo?",
+        "tiene_respuesta": true,
+        "respuesta": "El periodo de vacaciones anuales retribuidas, no sustituible por compensación económica, será el pactado en convenio colectivo o contrato individual, y en ningún caso su duración será inferior a treinta días naturales.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          39,
+          36,
+          33,
+          39
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántas horas extraordinarias se pueden hacer al año?",
+        "tiene_respuesta": true,
+        "respuesta": "El número de horas extraordinarias no podrá ser superior a ochenta al año, salvo lo previsto en el apartado 3. Para los trabajadores que por la modalidad o duración de su contrato realizasen una jornada en cómputo anual inferior a la jornada general en la empresa, el número máximo anual de horas extraordinarias se reducirá en la misma proporción que exista entre tales jornadas. No se computarán las horas extraordinarias que hayan sido compensadas mediante descanso dentro de los cuatro meses siguientes a su realización.",
+        "citas": [
+          1,
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          34,
+          34,
+          34,
+          34
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 2.0
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué horario se considera trabajo nocturno?",
+        "tiene_respuesta": true,
+        "respuesta": "Se considera trabajo nocturno el realizado entre las diez de la noche y las seis de la mañana.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          35,
+          35,
+          35,
+          35
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué indemnización corresponde por un despido improcedente?",
+        "tiene_respuesta": true,
+        "respuesta": "Cuando el despido sea declarado improcedente, el empresario, en el plazo de cinco días desde la notificación de la sentencia, podrá optar entre la readmisión del trabajador o el abono de una indemnización equivalente a treinta y tres días de salario por año de servicio, prorrateándose por meses los periodos de tiempo inferiores a un año, hasta un máximo de veinticuatro mensualidades. Para los contratos formalizados con anterioridad al 12 de febrero de 2012, la indemnización se calcula a razón de cuarenta y cinco días de salario por año de servicio por el tiempo de prestación de servicios anterior a dicha fecha, prorrateándose por meses los periodos inferiores a un año, y a razón de treinta y tres días de salario por año de servicio por el tiempo posterior, prorrateándose igualmente por meses los periodos inferiores a un año. La indemnización del artículo 56.1 será de aplicación a los contratos suscritos a partir del 12 de febrero de 2012.",
+        "citas": [
+          3,
+          2,
+          4
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          64,
+          95,
+          65,
+          95
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 2.5
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántas pagas extraordinarias hay al año?",
+        "tiene_respuesta": true,
+        "respuesta": "El trabajador tiene derecho a dos gratificaciones extraordinarias al año, una con ocasión de las fiestas de Navidad y la otra en el mes que se fije por convenio colectivo o por acuerdo entre el empresario y los representantes legales de los trabajadores. No obstante, podrá acordarse en convenio colectivo que las gratificaciones extraordinarias se prorrateen en las doce mensualidades.",
+        "citas": [
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          34,
+          30,
+          31,
+          28
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.7
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué interés se aplica si la empresa se retrasa en pagar el salario?",
+        "tiene_respuesta": true,
+        "respuesta": "El interés por mora en el pago del salario será el diez por ciento de lo adeudado.",
+        "citas": [
+          3
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          59,
+          29,
+          29,
+          26
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.6
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuánto descanso hay dentro de la jornada si dura más de seis horas?",
+        "tiene_respuesta": true,
+        "respuesta": "Cuando la duración de la jornada diaria continuada exceda de seis horas, deberá establecerse un periodo de descanso durante la misma de duración no inferior a quince minutos. Para los trabajadores menores de dieciocho años, el periodo de descanso tendrá una duración mínima de treinta minutos y deberá establecerse siempre que la jornada diaria continuada exceda de cuatro horas y media.",
+        "citas": [
+          1,
+          4
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          33,
+          33,
+          33,
+          33
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 2.0
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿A partir de cuántos trabajadores hay comité de empresa?",
+        "tiene_respuesta": true,
+        "respuesta": "El comité de empresa se constituye en cada centro de trabajo cuyo censo sea de cincuenta o más trabajadores.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          68,
+          71,
+          71,
+          71
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.7
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuál es el tope de la indemnización por despido improcedente?",
+        "tiene_respuesta": true,
+        "respuesta": "El tope de la indemnización por despido improcedente es de un máximo de veinticuatro mensualidades, según el artículo 56.1.",
+        "citas": [
+          3
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          64,
+          95,
+          65,
+          95
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.8
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántos días de vacaciones tiene un trabajador al año?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 1,
+        "paginas": [
+          10
+        ],
+        "auto": "sin respuesta",
+        "segundos": 1.8
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuál es el tipo general del IVA?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.2
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuál es la velocidad máxima en una autopista?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántos diputados componen el Congreso?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué es la fotosíntesis?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué pena tiene el robo con violencia?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      }
+    ],
+    "langchain": [
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Qué colores tiene la bandera de España?",
+        "tiene_respuesta": true,
+        "respuesta": "La bandera de España está formada por tres franjas horizontales: roja, amarilla y roja, siendo la amarilla de doble anchura que cada una de las rojas.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 1,
+        "paginas": [
+          4
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 21.0
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuál es la capital del Estado?",
+        "tiene_respuesta": true,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuál es la lengua oficial del Estado?",
+        "tiene_respuesta": true,
+        "respuesta": "El castellano es la lengua española oficial del Estado.",
+        "citas": [
+          2
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          3,
+          3
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.3
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿A qué edad se alcanza la mayoría de edad?",
+        "tiene_respuesta": true,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuánto puede durar como máximo una detención preventiva?",
+        "tiene_respuesta": true,
+        "respuesta": "La detención preventiva no podrá durar más del tiempo estrictamente necesario para la realización de las averiguaciones tendentes al esclarecimiento de los hechos y, en todo caso, en el plazo máximo de setenta y dos horas el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          6,
+          6
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.3
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Es obligatoria la enseñanza básica?",
+        "tiene_respuesta": true,
+        "respuesta": "Sí, la enseñanza básica es obligatoria y gratuita.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          8,
+          8
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.1
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántos diputados componen el Congreso?",
+        "tiene_respuesta": true,
+        "respuesta": "El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados, elegidos por sufragio universal, libre, igual, directo y secreto, en los términos que establezca la ley.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          15,
+          16,
+          17,
+          14
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.1
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántos senadores se eligen en cada provincia?",
+        "tiene_respuesta": true,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Quién puede proponer una moción de censura?",
+        "tiene_respuesta": true,
+        "respuesta": "La moción de censura deberá ser propuesta al menos por la décima parte de los Diputados, y habrá de incluir un candidato a la Presidencia del Gobierno.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 3,
+        "paginas": [
+          23,
+          23,
+          22
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.3
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántos miembros tiene el Tribunal Constitucional?",
+        "tiene_respuesta": true,
+        "respuesta": "El Tribunal Constitucional se compone de 12 miembros nombrados por el Rey.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          35,
+          35,
+          38,
+          35
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 0.8
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántas firmas hacen falta para una iniciativa legislativa popular?",
+        "tiene_respuesta": true,
+        "respuesta": "Se exigen no menos de 500.000 firmas acreditadas.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          19,
+          18
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.0
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Está permitida la pena de muerte?",
+        "tiene_respuesta": true,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Tiene el Rey responsabilidad por sus actos?",
+        "tiene_respuesta": true,
+        "respuesta": "No. Según el fragmento 2, la persona del Rey es inviolable y no está sujeta a responsabilidad. Además, el fragmento 1 establece que de los actos del Rey serán responsables las personas que los refrenden.",
+        "citas": [
+          2,
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          14,
+          13,
+          14,
+          12
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.2
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Quién declara el estado de alarma?",
+        "tiene_respuesta": true,
+        "respuesta": "El estado de alarma será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros, por un plazo máximo de quince días, dando cuenta al Congreso de los Diputados.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 2,
+        "paginas": [
+          23,
+          23
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.2
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Hay una religión oficial del Estado?",
+        "tiene_respuesta": true,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿A partir de qué edad se puede trabajar?",
+        "tiene_respuesta": true,
+        "respuesta": "Se prohíbe la admisión al trabajo a los menores de dieciséis años. No obstante, los menores de dieciocho y mayores de dieciséis años que vivan de forma independiente, con consentimiento de sus padres o tutores, o con autorización de la persona o institución que les tenga a su cargo, podrán contratar la prestación de su trabajo.",
+        "citas": [
+          1,
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          12,
+          12,
+          89,
+          87
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.0
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuánto puede durar el periodo de prueba?",
+        "tiene_respuesta": true,
+        "respuesta": "El periodo de prueba se sujeta a los límites de duración que, en su caso, se establezcan en los convenios colectivos. En defecto de pacto en convenio, no podrá exceder de seis meses para los técnicos titulados, ni de dos meses para los demás trabajadores. En las empresas de menos de veinticinco trabajadores no podrá exceder de tres meses para los trabajadores que no sean técnicos titulados. En los contratos temporales de duración determinada del artículo 15 concertados por tiempo no superior a seis meses, el periodo de prueba no podrá exceder de un mes, salvo que se disponga otra cosa en convenio colectivo.",
+        "citas": [
+          2,
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          20,
+          20,
+          20,
+          57
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.3
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuál es la jornada máxima semanal?",
+        "tiene_respuesta": true,
+        "respuesta": "La duración máxima de la jornada ordinaria de trabajo será de cuarenta horas semanales de trabajo efectivo de promedio en cómputo anual.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          33,
+          33,
+          36,
+          18
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.2
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántas horas de descanso debe haber entre una jornada y la siguiente?",
+        "tiene_respuesta": true,
+        "respuesta": "Entre el final de una jornada y el comienzo de la siguiente deben mediar, como mínimo, doce horas.",
+        "citas": [
+          2,
+          4
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          36,
+          33,
+          33,
+          33
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 0.9
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuánto dura el descanso semanal mínimo?",
+        "tiene_respuesta": true,
+        "respuesta": "El descanso mínimo semanal es de día y medio ininterrumpido, acumulable por periodos de hasta catorce días, que como regla general comprenderá la tarde del sábado o, en su caso, la mañana del lunes y el día completo del domingo. Para los menores de dieciocho años, la duración del descanso semanal será, como mínimo, de dos días ininterrumpidos.",
+        "citas": [
+          1,
+          4
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          36,
+          33,
+          33,
+          36
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.4
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántos días de permiso corresponden por matrimonio?",
+        "tiene_respuesta": true,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 4,
+        "paginas": [
+          94,
+          94,
+          37,
+          57
+        ],
+        "auto": "sin respuesta",
+        "segundos": 1.0
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántos días de vacaciones tengo al año como mínimo?",
+        "tiene_respuesta": true,
+        "respuesta": "El periodo de vacaciones anuales retribuidas será el pactado en convenio colectivo o contrato individual, pero en ningún caso su duración será inferior a treinta días naturales.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          39,
+          36,
+          39,
+          30
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.2
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántas horas extraordinarias se pueden hacer al año?",
+        "tiene_respuesta": true,
+        "respuesta": "El número de horas extraordinarias no podrá ser superior a ochenta al año, salvo lo previsto en el apartado 3. Para los trabajadores que por la modalidad o duración de su contrato realizasen una jornada en cómputo anual inferior a la jornada general en la empresa, el número máximo anual de horas extraordinarias se reducirá en la misma proporción que exista entre tales jornadas. A estos efectos, no se computarán las horas extraordinarias que hayan sido compensadas mediante descanso dentro de los cuatro meses siguientes a su realización.",
+        "citas": [
+          1,
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          34,
+          34,
+          34,
+          35
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.5
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué horario se considera trabajo nocturno?",
+        "tiene_respuesta": true,
+        "respuesta": "Se considera trabajo nocturno el realizado entre las diez de la noche y las seis de la mañana.",
+        "citas": [
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          35,
+          35,
+          35,
+          35
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.8
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué indemnización corresponde por un despido improcedente?",
+        "tiene_respuesta": true,
+        "respuesta": "Cuando el despido es declarado improcedente, el empresario, en el plazo de cinco días desde la notificación de la sentencia, podrá optar entre la readmisión del trabajador o el abono de una indemnización equivalente a treinta y tres días de salario por año de servicio, prorrateándose por meses los periodos de tiempo inferiores a un año, hasta un máximo de veinticuatro mensualidades. La opción por la indemnización determinará la extinción del contrato de trabajo, que se entenderá producida en la fecha del cese efectivo en el trabajo. Esta indemnización del artículo 56.1 se aplica a los contratos suscritos a partir del 12 de febrero de 2012. Para los contratos formalizados con anterioridad a esa fecha, la indemnización por despido improcedente se calcula a razón de cuarenta y cinco días de salario por año de servicio por el tiempo anterior a dicha fecha y a razón de treinta y tres días por año por el tiempo posterior, con un importe máximo de setecientos veinte días de salario, salvo que del cálculo por el periodo anterior al 12 de febrero de 2012 resultase un número de días superior, en cuyo caso se aplicará este como importe máximo, sin que pueda superar cuarenta y dos mensualidades.",
+        "citas": [
+          1,
+          3,
+          4
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          65,
+          64,
+          95,
+          95
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 2.1
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántas pagas extraordinarias hay al año?",
+        "tiene_respuesta": true,
+        "respuesta": "El trabajador tiene derecho a dos gratificaciones extraordinarias al año, una con ocasión de las fiestas de Navidad y la otra en el mes que se fije por convenio colectivo o por acuerdo entre el empresario y los representantes legales de los trabajadores. No obstante, podrá acordarse en convenio colectivo que las gratificaciones extraordinarias se prorrateen en las doce mensualidades.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          30,
+          34,
+          28,
+          34
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.2
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué interés se aplica si la empresa se retrasa en pagar el salario?",
+        "tiene_respuesta": true,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 4,
+        "paginas": [
+          59,
+          29,
+          51,
+          26
+        ],
+        "auto": "sin respuesta",
+        "segundos": 1.3
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuánto descanso hay dentro de la jornada si dura más de seis horas?",
+        "tiene_respuesta": true,
+        "respuesta": "Cuando la duración de la jornada diaria continuada exceda de seis horas, deberá establecerse un periodo de descanso durante la misma de duración no inferior a quince minutos. Este periodo de descanso se considerará tiempo de trabajo efectivo cuando así se establezca.",
+        "citas": [
+          1
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          33,
+          36,
+          33,
+          33
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.2
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿A partir de cuántos trabajadores hay comité de empresa?",
+        "tiene_respuesta": true,
+        "respuesta": "El comité de empresa se constituye en cada centro de trabajo cuyo censo sea de cincuenta o más trabajadores.",
+        "citas": [
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          71,
+          68,
+          70,
+          73
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.0
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuál es el tope de la indemnización por despido improcedente?",
+        "tiene_respuesta": true,
+        "respuesta": "Para los contratos suscritos a partir del 12 de febrero de 2012, la indemnización por despido improcedente es de treinta y tres días de salario por año de servicio, prorrateándose por meses los periodos inferiores a un año, hasta un máximo de veinticuatro mensualidades. Para los contratos formalizados antes del 12 de febrero de 2012, el importe indemnizatorio resultante no podrá ser superior a setecientos veinte días de salario, salvo lo que se indique a continuación en el texto.",
+        "citas": [
+          1,
+          2
+        ],
+        "fragmentos": 4,
+        "paginas": [
+          65,
+          95,
+          64,
+          65
+        ],
+        "auto": "dato presente",
+        "frase_en_lo_enviado": true,
+        "segundos": 1.4
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuántos días de vacaciones tiene un trabajador al año?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuál es el tipo general del IVA?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Constitución",
+        "pregunta": "¿Cuál es la velocidad máxima en una autopista?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Cuántos diputados componen el Congreso?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué es la fotosíntesis?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      },
+      {
+        "tema": "Estatuto de los Trabajadores",
+        "pregunta": "¿Qué pena tiene el robo con violencia?",
+        "tiene_respuesta": false,
+        "respuesta": "No encuentro información suficiente en los documentos seleccionados.",
+        "citas": [],
+        "fragmentos": 0,
+        "paginas": [],
+        "auto": "sin respuesta",
+        "segundos": 0.1
+      }
+    ]
+  }
+}
