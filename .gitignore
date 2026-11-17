@@ -9,3 +9,4 @@ requirements.lock.txt
 .streamlit/secrets.toml
 consulta_*.json
 evaluacion_*.json
+!docs/evaluacion_boe.json

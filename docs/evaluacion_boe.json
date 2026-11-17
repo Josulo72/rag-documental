@@ -1,0 +1,1083 @@
+{
+  "paginas": 136,
+  "casos_con_respuesta": 30,
+  "casos_trampa": 6,
+  "motores": {
+    "llamaindex": {
+      "fragmentos": 1227,
+      "segundos_indexando": 485.2,
+      "acierto_en_1": 23,
+      "acierto_en_3": 29,
+      "acierto_en_5": 29,
+      "por_umbral": [
+        {
+          "umbral": 0.8,
+          "aciertos_en_3": 29,
+          "trampas_rechazadas": 1
+        },
+        {
+          "umbral": 0.82,
+          "aciertos_en_3": 29,
+          "trampas_rechazadas": 4
+        },
+        {
+          "umbral": 0.84,
+          "aciertos_en_3": 29,
+          "trampas_rechazadas": 5
+        },
+        {
+          "umbral": 0.85,
+          "aciertos_en_3": 24,
+          "trampas_rechazadas": 6
+        },
+        {
+          "umbral": 0.86,
+          "aciertos_en_3": 22,
+          "trampas_rechazadas": 6
+        },
+        {
+          "umbral": 0.88,
+          "aciertos_en_3": 16,
+          "trampas_rechazadas": 6
+        },
+        {
+          "umbral": 0.9,
+          "aciertos_en_3": 6,
+          "trampas_rechazadas": 6
+        }
+      ],
+      "casos": [
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Qué colores tiene la bandera de España?",
+          "contiene": "roja, amarilla y roja",
+          "similitudes": [
+            0.8742,
+            0.7918,
+            0.7897,
+            0.7882,
+            0.7871
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8742
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuál es la capital del Estado?",
+          "contiene": "villa de Madrid",
+          "similitudes": [
+            0.8477,
+            0.821,
+            0.812,
+            0.8117,
+            0.8106
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8477
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuál es la lengua oficial del Estado?",
+          "contiene": "castellano es la lengua española oficial",
+          "similitudes": [
+            0.8499,
+            0.8496,
+            0.82,
+            0.8196,
+            0.8171
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8499
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿A qué edad se alcanza la mayoría de edad?",
+          "contiene": "mayores de edad a los dieciocho años",
+          "similitudes": [
+            0.8546,
+            0.8432,
+            0.8368,
+            0.8365,
+            0.8361
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.8432
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuánto puede durar como máximo una detención preventiva?",
+          "contiene": "setenta y dos horas",
+          "similitudes": [
+            0.8759,
+            0.8488,
+            0.8325,
+            0.8261,
+            0.8202
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8759
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Es obligatoria la enseñanza básica?",
+          "contiene": "enseñanza básica es obligatoria y gratuita",
+          "similitudes": [
+            0.8966,
+            0.8806,
+            0.8312,
+            0.826,
+            0.8259
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8966
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántos diputados componen el Congreso?",
+          "contiene": "mínimo de 300 y un máximo de 400",
+          "similitudes": [
+            0.8959,
+            0.8681,
+            0.8585,
+            0.8515,
+            0.8499
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8959
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántos senadores se eligen en cada provincia?",
+          "contiene": "cuatro Senadores",
+          "similitudes": [
+            0.8533,
+            0.8402,
+            0.8335,
+            0.8321,
+            0.8297
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8533
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Quién puede proponer una moción de censura?",
+          "contiene": "décima parte de los Diputados",
+          "similitudes": [
+            0.8852,
+            0.8719,
+            0.8711,
+            0.8413,
+            0.8407
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8852
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántos miembros tiene el Tribunal Constitucional?",
+          "contiene": "se compone de 12 miembros",
+          "similitudes": [
+            0.9012,
+            0.8809,
+            0.8794,
+            0.8791,
+            0.858
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.9012
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántas firmas hacen falta para una iniciativa legislativa popular?",
+          "contiene": "500.000 firmas acreditadas",
+          "similitudes": [
+            0.8754,
+            0.8399,
+            0.8378,
+            0.8356,
+            0.83
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8754
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Está permitida la pena de muerte?",
+          "contiene": "abolida la pena de muerte",
+          "similitudes": [
+            0.8422,
+            0.8339,
+            0.8268,
+            0.8223,
+            0.8179
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8422
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Tiene el Rey responsabilidad por sus actos?",
+          "contiene": "inviolable y no está sujeta a responsabilidad",
+          "similitudes": [
+            0.879,
+            0.873,
+            0.8655,
+            0.8645,
+            0.8512
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.873
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Quién declara el estado de alarma?",
+          "contiene": "estado de alarma será declarado por el Gobierno",
+          "similitudes": [
+            0.8972,
+            0.8542,
+            0.8256,
+            0.8189,
+            0.817
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8972
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Hay una religión oficial del Estado?",
+          "contiene": "ninguna confesión tendrá carácter estatal",
+          "similitudes": [
+            0.8474,
+            0.8393,
+            0.8178,
+            0.8148,
+            0.8139
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8474
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿A partir de qué edad se puede trabajar?",
+          "contiene": "menores de dieciséis años",
+          "similitudes": [
+            0.8936,
+            0.8906,
+            0.879,
+            0.8785,
+            0.8767
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8936
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuánto puede durar el periodo de prueba?",
+          "contiene": "seis meses para los técnicos titulados",
+          "similitudes": [
+            0.9045,
+            0.893,
+            0.8722,
+            0.8684,
+            0.8643
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.9045
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuál es la jornada máxima semanal?",
+          "contiene": "cuarenta horas semanales",
+          "similitudes": [
+            0.8922,
+            0.8648,
+            0.8648,
+            0.8618,
+            0.8583
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8922
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántas horas de descanso debe haber entre una jornada y la siguiente?",
+          "contiene": "doce horas",
+          "similitudes": [
+            0.8826,
+            0.8774,
+            0.8749,
+            0.8692,
+            0.8683
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8826
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuánto dura el descanso semanal mínimo?",
+          "contiene": "día y medio ininterrumpido",
+          "similitudes": [
+            0.9152,
+            0.8922,
+            0.8883,
+            0.8805,
+            0.8797
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.9152
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántos días de permiso corresponden por matrimonio?",
+          "contiene": "quince días naturales en caso de matrimonio",
+          "similitudes": [
+            0.8787,
+            0.8768,
+            0.871,
+            0.8707,
+            0.8651
+          ],
+          "posicion": null,
+          "similitud_del_acierto": null
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántos días de vacaciones tengo al año como mínimo?",
+          "contiene": "inferior a treinta días naturales",
+          "similitudes": [
+            0.8946,
+            0.8736,
+            0.8619,
+            0.8602,
+            0.86
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8946
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántas horas extraordinarias se pueden hacer al año?",
+          "contiene": "ochenta al año",
+          "similitudes": [
+            0.9064,
+            0.8816,
+            0.8785,
+            0.8779,
+            0.8756
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.9064
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué horario se considera trabajo nocturno?",
+          "contiene": "diez de la noche y las seis de la mañana",
+          "similitudes": [
+            0.9024,
+            0.892,
+            0.8825,
+            0.8739,
+            0.8707
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.9024
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué indemnización corresponde por un despido improcedente?",
+          "contiene": "treinta y tres días de salario por año de servicio",
+          "similitudes": [
+            0.8934,
+            0.8895,
+            0.8881,
+            0.8866,
+            0.8828
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.8895
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántas pagas extraordinarias hay al año?",
+          "contiene": "dos gratificaciones extraordinarias al año",
+          "similitudes": [
+            0.8772,
+            0.8697,
+            0.8624,
+            0.8571,
+            0.8562
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.8697
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué interés se aplica si la empresa se retrasa en pagar el salario?",
+          "contiene": "diez por ciento de lo adeudado",
+          "similitudes": [
+            0.8564,
+            0.8537,
+            0.8511,
+            0.8491,
+            0.8435
+          ],
+          "posicion": 3,
+          "similitud_del_acierto": 0.8511
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuánto descanso hay dentro de la jornada si dura más de seis horas?",
+          "contiene": "quince minutos",
+          "similitudes": [
+            0.881,
+            0.8779,
+            0.8702,
+            0.8675,
+            0.866
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.881
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿A partir de cuántos trabajadores hay comité de empresa?",
+          "contiene": "cincuenta o más trabajadores",
+          "similitudes": [
+            0.9022,
+            0.8936,
+            0.8932,
+            0.8854,
+            0.8847
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.9022
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuál es el tope de la indemnización por despido improcedente?",
+          "contiene": "veinticuatro mensualidades",
+          "similitudes": [
+            0.8741,
+            0.8741,
+            0.8698,
+            0.8694,
+            0.8664
+          ],
+          "posicion": 3,
+          "similitud_del_acierto": 0.8698
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántos días de vacaciones tiene un trabajador al año?",
+          "contiene": null,
+          "similitudes": [
+            0.8413,
+            0.8167,
+            0.8091,
+            0.8086,
+            0.8079
+          ]
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuál es el tipo general del IVA?",
+          "contiene": null,
+          "similitudes": [
+            0.8353,
+            0.8276,
+            0.8272,
+            0.8267,
+            0.8226
+          ]
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuál es la velocidad máxima en una autopista?",
+          "contiene": null,
+          "similitudes": [
+            0.8038,
+            0.7816,
+            0.779,
+            0.778,
+            0.7758
+          ]
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántos diputados componen el Congreso?",
+          "contiene": null,
+          "similitudes": [
+            0.8134,
+            0.81,
+            0.8099,
+            0.8092,
+            0.8078
+          ]
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué es la fotosíntesis?",
+          "contiene": null,
+          "similitudes": [
+            0.7838,
+            0.7838,
+            0.7825,
+            0.7816,
+            0.7815
+          ]
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué pena tiene el robo con violencia?",
+          "contiene": null,
+          "similitudes": [
+            0.8073,
+            0.8038,
+            0.8037,
+            0.8037,
+            0.803
+          ]
+        }
+      ]
+    },
+    "langchain": {
+      "fragmentos": 740,
+      "segundos_indexando": 287.4,
+      "acierto_en_1": 19,
+      "acierto_en_3": 27,
+      "acierto_en_5": 29,
+      "por_umbral": [
+        {
+          "umbral": 0.8,
+          "aciertos_en_3": 27,
+          "trampas_rechazadas": 3
+        },
+        {
+          "umbral": 0.82,
+          "aciertos_en_3": 26,
+          "trampas_rechazadas": 4
+        },
+        {
+          "umbral": 0.84,
+          "aciertos_en_3": 23,
+          "trampas_rechazadas": 6
+        },
+        {
+          "umbral": 0.85,
+          "aciertos_en_3": 21,
+          "trampas_rechazadas": 6
+        },
+        {
+          "umbral": 0.86,
+          "aciertos_en_3": 19,
+          "trampas_rechazadas": 6
+        },
+        {
+          "umbral": 0.88,
+          "aciertos_en_3": 6,
+          "trampas_rechazadas": 6
+        },
+        {
+          "umbral": 0.9,
+          "aciertos_en_3": 0,
+          "trampas_rechazadas": 6
+        }
+      ],
+      "casos": [
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Qué colores tiene la bandera de España?",
+          "contiene": "roja, amarilla y roja",
+          "similitudes": [
+            0.851,
+            0.795,
+            0.7865,
+            0.7861,
+            0.7845
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.851
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuál es la capital del Estado?",
+          "contiene": "villa de Madrid",
+          "similitudes": [
+            0.8151,
+            0.8072,
+            0.8035,
+            0.802,
+            0.7997
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8151
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuál es la lengua oficial del Estado?",
+          "contiene": "castellano es la lengua española oficial",
+          "similitudes": [
+            0.8492,
+            0.8433,
+            0.8227,
+            0.8189,
+            0.8189
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.8433
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿A qué edad se alcanza la mayoría de edad?",
+          "contiene": "mayores de edad a los dieciocho años",
+          "similitudes": [
+            0.8395,
+            0.8304,
+            0.8271,
+            0.8251,
+            0.8203
+          ],
+          "posicion": 3,
+          "similitud_del_acierto": 0.8271
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuánto puede durar como máximo una detención preventiva?",
+          "contiene": "setenta y dos horas",
+          "similitudes": [
+            0.8705,
+            0.8507,
+            0.8283,
+            0.82,
+            0.816
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8705
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Es obligatoria la enseñanza básica?",
+          "contiene": "enseñanza básica es obligatoria y gratuita",
+          "similitudes": [
+            0.8751,
+            0.8432,
+            0.8281,
+            0.8242,
+            0.8176
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8751
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántos diputados componen el Congreso?",
+          "contiene": "mínimo de 300 y un máximo de 400",
+          "similitudes": [
+            0.8651,
+            0.86,
+            0.8539,
+            0.8478,
+            0.8431
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8651
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántos senadores se eligen en cada provincia?",
+          "contiene": "cuatro Senadores",
+          "similitudes": [
+            0.8382,
+            0.8369,
+            0.8345,
+            0.8292,
+            0.8279
+          ],
+          "posicion": 3,
+          "similitud_del_acierto": 0.8345
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Quién puede proponer una moción de censura?",
+          "contiene": "décima parte de los Diputados",
+          "similitudes": [
+            0.8739,
+            0.8661,
+            0.8413,
+            0.8332,
+            0.8324
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8739
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántos miembros tiene el Tribunal Constitucional?",
+          "contiene": "se compone de 12 miembros",
+          "similitudes": [
+            0.8884,
+            0.8651,
+            0.8482,
+            0.841,
+            0.8322
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8884
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántas firmas hacen falta para una iniciativa legislativa popular?",
+          "contiene": "500.000 firmas acreditadas",
+          "similitudes": [
+            0.8666,
+            0.8434,
+            0.8338,
+            0.832,
+            0.8318
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8666
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Está permitida la pena de muerte?",
+          "contiene": "abolida la pena de muerte",
+          "similitudes": [
+            0.8261,
+            0.8199,
+            0.8196,
+            0.8187,
+            0.8163
+          ],
+          "posicion": 4,
+          "similitud_del_acierto": 0.8187
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Tiene el Rey responsabilidad por sus actos?",
+          "contiene": "inviolable y no está sujeta a responsabilidad",
+          "similitudes": [
+            0.8696,
+            0.8658,
+            0.8638,
+            0.8531,
+            0.852
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.8658
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Quién declara el estado de alarma?",
+          "contiene": "estado de alarma será declarado por el Gobierno",
+          "similitudes": [
+            0.8482,
+            0.8437,
+            0.8279,
+            0.8197,
+            0.8153
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8482
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Hay una religión oficial del Estado?",
+          "contiene": "ninguna confesión tendrá carácter estatal",
+          "similitudes": [
+            0.8322,
+            0.8102,
+            0.8086,
+            0.8077,
+            0.8074
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8322
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿A partir de qué edad se puede trabajar?",
+          "contiene": "menores de dieciséis años",
+          "similitudes": [
+            0.8823,
+            0.881,
+            0.8715,
+            0.8645,
+            0.8616
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8823
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuánto puede durar el periodo de prueba?",
+          "contiene": "seis meses para los técnicos titulados",
+          "similitudes": [
+            0.8666,
+            0.8592,
+            0.8516,
+            0.8475,
+            0.8472
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.8592
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuál es la jornada máxima semanal?",
+          "contiene": "cuarenta horas semanales",
+          "similitudes": [
+            0.8688,
+            0.857,
+            0.8539,
+            0.847,
+            0.8462
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8688
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántas horas de descanso debe haber entre una jornada y la siguiente?",
+          "contiene": "doce horas",
+          "similitudes": [
+            0.8804,
+            0.8686,
+            0.8686,
+            0.8685,
+            0.8658
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.8686
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuánto dura el descanso semanal mínimo?",
+          "contiene": "día y medio ininterrumpido",
+          "similitudes": [
+            0.8993,
+            0.8745,
+            0.8733,
+            0.8726,
+            0.8678
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8993
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántos días de permiso corresponden por matrimonio?",
+          "contiene": "quince días naturales en caso de matrimonio",
+          "similitudes": [
+            0.8679,
+            0.8584,
+            0.8571,
+            0.8559,
+            0.8536
+          ],
+          "posicion": null,
+          "similitud_del_acierto": null
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántos días de vacaciones tengo al año como mínimo?",
+          "contiene": "inferior a treinta días naturales",
+          "similitudes": [
+            0.8604,
+            0.8599,
+            0.8554,
+            0.8534,
+            0.8498
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8604
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántas horas extraordinarias se pueden hacer al año?",
+          "contiene": "ochenta al año",
+          "similitudes": [
+            0.8909,
+            0.8772,
+            0.867,
+            0.8649,
+            0.8632
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8909
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué horario se considera trabajo nocturno?",
+          "contiene": "diez de la noche y las seis de la mañana",
+          "similitudes": [
+            0.8901,
+            0.876,
+            0.8752,
+            0.8692,
+            0.868
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.876
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué indemnización corresponde por un despido improcedente?",
+          "contiene": "treinta y tres días de salario por año de servicio",
+          "similitudes": [
+            0.8867,
+            0.8845,
+            0.8819,
+            0.8742,
+            0.871
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8867
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántas pagas extraordinarias hay al año?",
+          "contiene": "dos gratificaciones extraordinarias al año",
+          "similitudes": [
+            0.8687,
+            0.8645,
+            0.8566,
+            0.8428,
+            0.8405
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8687
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué interés se aplica si la empresa se retrasa en pagar el salario?",
+          "contiene": "diez por ciento de lo adeudado",
+          "similitudes": [
+            0.8688,
+            0.8569,
+            0.8528,
+            0.8513,
+            0.8511
+          ],
+          "posicion": 5,
+          "similitud_del_acierto": 0.8511
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuánto descanso hay dentro de la jornada si dura más de seis horas?",
+          "contiene": "quince minutos",
+          "similitudes": [
+            0.869,
+            0.8689,
+            0.8666,
+            0.8608,
+            0.8532
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.869
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿A partir de cuántos trabajadores hay comité de empresa?",
+          "contiene": "cincuenta o más trabajadores",
+          "similitudes": [
+            0.8955,
+            0.8849,
+            0.8766,
+            0.8723,
+            0.8675
+          ],
+          "posicion": 2,
+          "similitud_del_acierto": 0.8849
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuál es el tope de la indemnización por despido improcedente?",
+          "contiene": "veinticuatro mensualidades",
+          "similitudes": [
+            0.8719,
+            0.868,
+            0.863,
+            0.8609,
+            0.8607
+          ],
+          "posicion": 1,
+          "similitud_del_acierto": 0.8719
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuántos días de vacaciones tiene un trabajador al año?",
+          "contiene": null,
+          "similitudes": [
+            0.8249,
+            0.8116,
+            0.8103,
+            0.8084,
+            0.8074
+          ]
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuál es el tipo general del IVA?",
+          "contiene": null,
+          "similitudes": [
+            0.8274,
+            0.8174,
+            0.8139,
+            0.8108,
+            0.8106
+          ]
+        },
+        {
+          "tema": "Constitución",
+          "pregunta": "¿Cuál es la velocidad máxima en una autopista?",
+          "contiene": null,
+          "similitudes": [
+            0.7912,
+            0.7762,
+            0.7713,
+            0.77,
+            0.7692
+          ]
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Cuántos diputados componen el Congreso?",
+          "contiene": null,
+          "similitudes": [
+            0.8135,
+            0.8076,
+            0.8008,
+            0.799,
+            0.7971
+          ]
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué es la fotosíntesis?",
+          "contiene": null,
+          "similitudes": [
+            0.7772,
+            0.777,
+            0.7756,
+            0.7753,
+            0.7747
+          ]
+        },
+        {
+          "tema": "Estatuto de los Trabajadores",
+          "pregunta": "¿Qué pena tiene el robo con violencia?",
+          "contiene": null,
+          "similitudes": [
+            0.7989,
+            0.7967,
+            0.793,
+            0.7898,
+            0.7884
+          ]
+        }
+      ]
+    }
+  }
+}
