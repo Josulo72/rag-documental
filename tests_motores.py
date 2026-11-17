@@ -8,6 +8,7 @@ Uso:  python tests_motores.py
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 import rag_engine as rag
 
@@ -62,6 +63,25 @@ class Motors(unittest.TestCase):
                 self.assertEqual({hit.metadata["archivo"] for hit in best.values()}, {case["archivo_esperado"]})
                 scores = [hit.score for hit in best.values()]
                 self.assertLess(max(scores) - min(scores), 0.03)
+
+
+class LangChainAnswer(unittest.TestCase):
+    """La cadena de LangChain, con un modelo de mentira que devuelve lo que le digamos."""
+    hits = [rag.Fragment("uno", {"archivo": "a.pdf", "pagina": 1, "tema": "C"}, .9),
+            rag.Fragment("dos", {"archivo": "b.pdf", "pagina": 2, "tema": "C"}, .88)]
+    def answer(self, content):
+        import motor_langchain
+        from langchain_core.language_models.fake_chat_models import FakeListChatModel
+        with mock.patch.object(motor_langchain, "chat_model", return_value=FakeListChatModel(responses=[content])):
+            return motor_langchain.generate("pregunta", self.hits, "modelo", "api")
+    def test_valid_answer(self):
+        self.assertEqual(self.answer('{"answer": "vale", "sources": [2, 2]}'), ("vale", [2]))
+    def test_empty_answer_means_no_answer(self):
+        self.assertEqual(self.answer('{"answer": "", "sources": []}'), (rag.NO_ANSWER, []))
+    def test_invented_source_is_rejected(self):
+        with self.assertRaises(ValueError): self.answer('{"answer": "vale", "sources": [7]}')
+    def test_text_that_is_not_json_is_rejected(self):
+        with self.assertRaises(Exception): self.answer("no soy JSON")
 
 
 if __name__ == "__main__":
