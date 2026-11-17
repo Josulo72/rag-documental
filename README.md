@@ -104,7 +104,7 @@ Con 0,85, que es lo que yo había puesto, la aplicación le habría dicho "no en
 
 Por eso el umbral por defecto está ahora en 0,84. Con LlamaIndex recupera 29 de 30 y deja pasar una trampa: preguntar en la Constitución cuántos días de vacaciones tiene un trabajador. Tiene su lógica, porque la Constitución habla de vacaciones retribuidas aunque no diga cuántas.
 
-Tres cosas que no quiero disimular:
+Tres pegas:
 
 - El 0,84 sale de estas mismas 36 preguntas. No lo he comprobado con otras distintas, así que puede estar ajustado de más a este caso.
 - Con LangChain, 0,84 sigue siendo alto: se queda en 23 de 30. Cada motor pediría su propio umbral.
@@ -135,7 +135,7 @@ Lo que no salió redondo:
 - Con LlamaIndex, la respuesta sobre la indemnización por despido explica el cálculo de los contratos anteriores a 2012 sin decir que tiene un tope, porque ese trozo no se le envió. Está bien pero incompleta.
 - En cinco respuestas el modelo escribe "según el fragmento 2" dentro del texto. El dato es correcto, pero queda feo.
 - El 0,82 de LangChain lo he elegido con las mismas 36 preguntas con las que luego lo mido, igual que el 0,84. Con otras preguntas puede salir peor, y nada garantiza que el modelo rechace siempre las trampas que se cuelen. En la aplicación el umbral por defecto sigue en 0,84 para los dos motores.
-- Es un solo modelo y una sola pasada, a temperatura 0. Quién acierta y quién no lo he decidido yo leyendo, no un programa.
+- Es un solo modelo y una sola pasada, a temperatura 0. Quién acierta y quién no lo he decidido yo, leyendo.
 
 ## Cómo está hecho
 
